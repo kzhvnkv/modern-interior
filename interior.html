@@ -8,14 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" async></script>
     <title>Interior</title>
+    
 </head>
+
 <body>
     
     <header class="header">
         
         <div class="header__container container">
-            <div class="header__wrapper">
+            <div class="header__wrapper wrapper">
                 <div class="header__logo logo">
                     <a class="logo__link link" href="#" title="logo">This interior</a>
                 </div>
@@ -28,6 +31,35 @@
                         <li class="menu__item"><a class="menu__link link">Contact</a></li>
                     </ul>
                 </nav>
+                <nav class="nav__mobile">
+                    <div class="nav__burger">
+                        <svg width="32" height="32">
+
+                            <line x1="2" y1="8" x2="30" y2="8" stroke-width="3" stroke="white" stroke-linecap="butt"></line>
+                          
+                            <line x1="2" y1="16" x2="30" y2="16" stroke-width="3" stroke="white"></line>
+                          
+                            <line x1="2" y1="24" x2="30" y2="24" stroke-width="3" stroke="white"></line>
+                          
+                          </svg>
+                    </div>
+                    
+                    <nav class="header__nav nav">
+                        <ul class="nav__menu nav__menu--mobile menu">
+                            <svg width="22" height="22" class="close">
+
+                                <line x1="2" y1="2" x2="20" y2="20" stroke-width="3" stroke="white" stroke-linecap="butt"></line>
+                              
+                                <line x1="2" y1="20" x2="20" y2="2" stroke-width="3" stroke="white"></line>
+                              
+                              </svg>
+                            <li class="menu__item"><a class="menu__link link link--active">Home</a></li>
+                            <li class="menu__item"><a class="menu__link link">Collection</a></li>
+                            <li class="menu__item"><a class="menu__link link">About</a></li>
+                            <li class="menu__item"><a class="menu__link link">Contact</a></li>
+                        </ul>
+                    </nav>
+                </nav>
 
             </div>
         </div>
@@ -38,7 +70,7 @@
     <main class="main">
         <section class="section">
             <div class="section__container container">
-                <div class="section__wrapper">
+                <div class="section__wrapper wrapper">
                     <div class="section__left">
                         <h1 class="section__title h1">
                             Modern interior                            
@@ -74,12 +106,12 @@
 
     <footer class="footer">
         <div class="footer__container container">
-            <div class="footer__wrapper">
+            <div class="footer__wrapper wrapper">
                 <div class="footer__copyrights">created by <a class="footer__link link" href="https://github.com/kzhvnkv/">kzhvnkv</a> - devChallenges.io</div>
             </div>
         </div>
     </footer>
 
-
+    
 </body>
 </html>
